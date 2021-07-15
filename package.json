@@ -1,15 +1,17 @@
 {
-  "name": "yjs-codemirror-demo",
+  "name": "real-timecollab-exercise",
   "version": "1.0.0",
   "description": "Yjs ❤ Atlaskit",
   "scripts": {
     "dist": "webpack --mode=production",
-    "start": "webpack serve --open --open-page codemirror.html"
+    "start": "node server.js",
+    "start-old": "webpack serve --open --open-page index.html"
   },
-  "author": "Kevin Jahns <kevin.jahns@pm.me>",
+  "author": "Aldo Cortés for Developers.net",
   "license": "UNLICENSE",
   "dependencies": {
     "codemirror": "^5.61.1",
+    "express": "^4.17.1",
     "y-codemirror": "^2.1.1",
     "y-websocket": "^1.3.15",
     "yjs": "^13.5.8"
