@@ -4,10 +4,10 @@
   "description": "Yjs ❤ Atlaskit",
   "scripts": {
     "dist": "webpack --mode=production",
-    "postinstall": "webpack --mode=production",
     "start": "npm i && node server.js",
     "start-old": "webpack serve --open --open-page index.html"
   },
+  "heroku-run-build-script": true,
   "author": "Aldo Cortés for Developers.net",
   "license": "UNLICENSE",
   "dependencies": {
