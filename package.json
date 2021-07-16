@@ -4,7 +4,7 @@
   "description": "Yjs ❤ Atlaskit",
   "scripts": {
     "dist": "webpack --mode=production",
-    "start": "npm i && node server.js",
+    "start": "webpack --mode=production && npm i && node server.js",
     "start-old": "webpack serve --open --open-page index.html"
   },
   "author": "Aldo Cortés for Developers.net",
