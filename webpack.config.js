@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     globalObject: 'self',
-    path: path.resolve(__dirname, './'),
+    path: path.resolve(__dirname, './dist/'),
     filename: '[name].bundle.js',
     publicPath: '/codemirror/dist/'
   },
