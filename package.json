@@ -4,7 +4,6 @@
   "description": "Yjs ❤ Atlaskit",
   "scripts": {
     "dist": "webpack --mode=production",
-    "compress": "webpack --mode=production",
     "start": "npm i && node server.js",
     "start-old": "webpack serve --open --open-page index.html"
   },
